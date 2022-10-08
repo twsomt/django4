@@ -158,7 +158,7 @@ STATICFILES_FINDERS = [
 # Какие файлы мы хотим сделать ещё статическими укажем здесь
 STATICFILES_DIRS = [
     
-    #os.path.join(BASE_DIR, "other_static"),
+    os.path.join(BASE_DIR, "main_site/templates"),
    
 
 ]
