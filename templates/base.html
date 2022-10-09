@@ -1,1 +1,16 @@
-<h1>Hello, World!</h1>
+{% load static %}
+<!DOCTYPE html>
+<html>
+ <head>
+    {% include 'includes/header.html' %} 
+ </head>
+ <body>
+  <p>Это у нас с base.html</p>
+
+  {% block content%}Контент не подвезли :({% endblock%}
+ </body>
+
+
+<hr>
+{% include 'includes/footer.html' %} 
+</html>
