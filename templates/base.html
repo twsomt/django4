@@ -2,7 +2,12 @@
 <!DOCTYPE html>
 <html>
  <head>
-    {% include 'includes/header.html' %} 
+    {% include 'includes/header.html' %}
+    <title>
+        {% block title %}
+            Пример страницы
+        {% endblock %}
+      </title>
  </head>
  <body>
   <p>Это у нас с base.html</p>
