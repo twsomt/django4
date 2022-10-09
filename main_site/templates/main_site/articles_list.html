@@ -1,3 +1,5 @@
 {% extends 'base.html' %}
 {% block title %}Другой тайтл{% endblock %}
-{% block content %}Контент{% endblock %}
+{% block content %}
+    {% include 'includes/feed.html' %}
+{% endblock %}
